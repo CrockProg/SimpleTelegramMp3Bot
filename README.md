@@ -4,7 +4,7 @@ Simple telegram bot for downloading .mp3 from youtube
 ## Requirements
 
 * FFmpeg
-* Python3.6+
+* Python 3.6+
 
 ## Installation
 
