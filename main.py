@@ -10,11 +10,11 @@ import youtube_dl
 from mutagen.mp3 import MP3
 from mutagen import MutagenError
 from config import TG_TOKEN
+from config import FOLDER
 
 
 #Constants
 bot = telebot.TeleBot(TG_TOKEN)
-FOLDER = 'music/'
 LIMIT = 2300
 
 #Logger
