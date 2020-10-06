@@ -74,8 +74,8 @@ def handle_text(message):
                         #Compare video duration
                         for fn in file_list:
                             audio = MP3(fn)
-                            dutation = audio.info.length
-                            if int(round(dutation)) == length:
+                            duration = audio.info.length
+                            if int(round(duration))+1 >= length:
                                 with open (fn, 'rb') as f:
                                     bot.send_chat_action(message.from_user.id, 'upload_audio')
                                     bot.send_audio(message.from_user.id, f, timeout=500)
