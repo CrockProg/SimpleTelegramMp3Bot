@@ -1,4 +1,4 @@
-# SimpleTelegramMp3Bot
+# simple-telegram-mp3-bot
 Simple telegram bot for downloading .mp3 from youtube
 
 ## Requirements
@@ -8,7 +8,7 @@ Simple telegram bot for downloading .mp3 from youtube
 
 ## Installation
 
-After you've installed the latest version of Python 3, navigate to the SimpleTelegramMp3Bot directory and run `pip install -r requirements.txt` in your command prompt or terminal.
+After you've installed the latest version of Python 3, navigate to the main directory and run `pip install -r requirements.txt` in your command prompt or terminal.
 
 ## Configuration
 
